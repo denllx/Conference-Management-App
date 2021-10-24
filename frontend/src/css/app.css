@@ -1,0 +1,39 @@
+.button-bottom {
+  position: fixed;
+  bottom: 20px;
+  width: 90%;
+  left: 5%;
+}
+
+.dot {
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #a3a3a3;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1em;
+  padding: 2px;
+}
+
+#q-app
+  > div
+  > div.q-page-container
+  > div.q-page-sticky.row.flex-center.fixed-bottom-right.q-page-sticky--shrink
+  > div
+  > button
+  > div.q-btn__wrapper.col.row.q-anchor--skip {
+  display: none !important;
+}
+
+.q-message-stamp {
+  font-size: 10px;
+}
+
+.q-message-text-content {
+  font-size: 15px;
+}

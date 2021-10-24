@@ -1,0 +1,11 @@
+const bcrypt = require('bcrypt')
+
+const a = bcrypt.hashSync('a', 10)
+const a1 = bcrypt.hashSync('a', 10)
+const b = bcrypt.hashSync('b', 10)
+const res = bcrypt.compareSync('a', a)
+const resb = bcrypt.compareSync('b', b)
+console.log(a)
+console.log(a1)
+console.log(res)
+console.log(resb)
